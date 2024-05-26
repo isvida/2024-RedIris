@@ -14,7 +14,7 @@ async def on_chat_start():
         [
             (
                 "system",
-                "You are a helpful assistant. You must always make responses to spanish question, if you recieve a question in any other language. Moreover, you have to answer in spanish."
+                "You are a helpful assistant. You must always respond to Spanish questions if you receive a question in any other language. Moreover, you have to answer in spanish."
             ),
             ("human", "{question}"),
         ]
